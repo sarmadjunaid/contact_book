@@ -1,2 +1,29 @@
-env
+# General
+.vim
+.DS_Store
+.idea
+.vscode
+.vs
+*.pyproj
+*.pyproj.user
+obj
+*.csv
+*.json
+
+# Certificate files
+*.ca
+*.crt
+*.key
+
+# Python
 __pycache__
+venv
+env
+.mypy_cache
+.pytest_cache
+
+# Django
+db.sqlite3
+
+# npm
+node_modules/
